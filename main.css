@@ -1,9 +1,91 @@
-/* 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-<ul class="car-model">
-<li><a href="#">Audi A1</a></li>
-<li><a href="#">Audi A3</a></li>
-<li><a href="#">Audi A4</a></li>
-<li><a href="#">Audi A6</a></li>
-<li><a href="#">Audi Q5</a></li>
-</ul>  */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(243, 241, 241);
+}
+
+.Automarken {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 241, 241);
+    padding-top: 40px;
+}
+
+.Automarken .container {
+    background-color: #fff;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.Automarken .container .title {
+    color: black;
+    padding-left: 15px;
+}
+
+.Automarken .container .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.Automarken .container .wrapper .car-model li {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+}
+
+.Automarken .container .wrapper .car-model li :hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+.Automarken .container .wrapper .car-model a {
+    text-decoration: none;
+    color: black;
+}
+
+.pre-wrapper2 {
+    background-color: #fff;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.pre-wrapper2 .wrapper2 {
+    position: absolute;
+    right: 500px;
+    display: flex;
+    top: 250px;
+    gap: 15px;
+    left: 315px;
+    background-color: #fff;
+    padding-left: 15px;
+}
+
+.pre-wrapper2 .wrapper2 .car-model li{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;  
+
+}
+
+.pre-wrapper2 .wrapper2 .car-model a{
+    text-decoration: none;
+    color: black;
+}
+
+.pre-wrapper2 .wrapper2 .car-model a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
